@@ -1,4 +1,4 @@
-package com.corhuila.electro_corhuila.service;
+package com.corhuila.electro_corhuila.application.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.corhuila.electro_corhuila.models.User;
-import com.corhuila.electro_corhuila.repository.UserRepository;
+import com.corhuila.electro_corhuila.domain.models.User;
+import com.corhuila.electro_corhuila.domain.models.repository.UserRepository;
 
 @Service
 public class UserServicempl implements IUserService {

@@ -1,7 +1,8 @@
-package com.corhuila.electro_corhuila.service;
+package com.corhuila.electro_corhuila.application.service;
 
-import com.corhuila.electro_corhuila.models.Tarifa;
-import com.corhuila.electro_corhuila.repository.TarifaRepository;
+import com.corhuila.electro_corhuila.domain.models.Tarifa;
+import com.corhuila.electro_corhuila.domain.models.repository.TarifaRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

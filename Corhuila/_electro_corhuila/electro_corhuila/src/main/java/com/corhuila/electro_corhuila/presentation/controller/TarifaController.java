@@ -1,7 +1,8 @@
-package com.corhuila.electro_corhuila.controller;
+package com.corhuila.electro_corhuila.presentation.controller;
 
-import com.corhuila.electro_corhuila.models.Tarifa;
-import com.corhuila.electro_corhuila.service.ITarifaService;
+import com.corhuila.electro_corhuila.application.service.ITarifaService;
+import com.corhuila.electro_corhuila.domain.models.Tarifa;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,7 @@
-package com.corhuila.electro_corhuila.controller;
+package com.corhuila.electro_corhuila.presentation.controller;
 
-import com.corhuila.electro_corhuila.models.User;
-import com.corhuila.electro_corhuila.service.IUserService;
+import com.corhuila.electro_corhuila.application.service.IUserService;
+import com.corhuila.electro_corhuila.domain.models.User;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

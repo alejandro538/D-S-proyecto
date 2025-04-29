@@ -1,9 +1,9 @@
-package com.corhuila.electro_corhuila.service;
-
-import com.corhuila.electro_corhuila.models.Tarifa;
+package com.corhuila.electro_corhuila.application.service;
 
 import java.util.List;
 import java.util.Optional;
+
+import com.corhuila.electro_corhuila.domain.models.Tarifa;
 
 public interface ITarifaService {
 

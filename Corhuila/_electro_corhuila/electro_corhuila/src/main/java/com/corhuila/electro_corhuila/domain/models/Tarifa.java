@@ -1,4 +1,4 @@
-package com.corhuila.electro_corhuila.models;
+package com.corhuila.electro_corhuila.domain.models;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
