@@ -5,10 +5,8 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
+import com.corhuila.electro_corhuila.repository.*;
 import com.corhuila.electro_corhuila.domain.models.User;
-import com.corhuila.electro_corhuila.domain.models.repository.UserRepository;
-
 @Service
 public class UserServicempl implements IUserService {
 

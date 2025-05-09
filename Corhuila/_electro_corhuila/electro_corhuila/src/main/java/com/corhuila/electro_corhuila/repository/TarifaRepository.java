@@ -1,5 +1,4 @@
-package com.corhuila.electro_corhuila.domain.models.repository;
-
+package com.corhuila.electro_corhuila.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.corhuila.electro_corhuila.domain.models.Tarifa;
